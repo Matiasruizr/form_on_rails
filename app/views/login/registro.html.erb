@@ -1,0 +1,19 @@
+<div class="login">
+    <h1>Registrarse</h1>
+    <%= form_tag:action => 'registro' do %>
+        <p> <i class="fas fa-user"></i>Nombre:</p>
+        <%= text_field_tag 'nombre_usuario' %>
+        <p><i class="fas fa-envelope"></i> Email:</p>
+        <%= text_field_tag 'email_usuario' %>
+        <p><i class="fas fa-phone"></i> Telefono:</p>
+        <%= text_field_tag 'telefono_usuario' %>
+
+        <%= submit_tag 'Registrarse' %>
+    <% end %>
+
+    <h2>Tus datos son </h2>
+    <p>Nombre: <%=@nombre %></p>
+    <p>Email: <%=@email %></p>
+    <p>Telefono: <%=@telefono %></p>
+   
+</div>
