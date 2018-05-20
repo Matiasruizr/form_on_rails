@@ -1,24 +1,21 @@
-# README
+# Form on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+La intención de este repositorio es utilizar los elementos básicos de ruby on rails a través de la programación de un formulario.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version: 
+> ruby 2.3.3p222
 
-* System dependencies
+* System dependencies: 
+> Ruby, Ruby on Rails
 
-* Configuration
+* Configuration: None
 
 * Database creation
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
+ > Git clone https://github.com/Matiasruizr/form_on_rails, luego en el directorio correr rails s
 
 * ...
